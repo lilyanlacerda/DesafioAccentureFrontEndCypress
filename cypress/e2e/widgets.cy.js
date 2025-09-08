@@ -8,7 +8,7 @@ describe("Widgets / Progress Bar", () => {
     cy.clock(); // congela o tempo da animação
   });
 
-  it("Deve parar antes de 25% e validar, depois completar até 100%", () => {
+  it("Caso de Teste 1 - Deve parar antes de 25% e validar, depois completar até 100%", () => {
     widgets.elements.startStopBtn().as("startBtn");
 
     // Inicia a progress bar

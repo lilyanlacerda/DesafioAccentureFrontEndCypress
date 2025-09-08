@@ -1,4 +1,3 @@
-// cypress/e2e/sortable.cy.js
 import InteractionsPage from '../support/pageObjects/interactionsPage';
 
 describe('Interactions - Sortable', () => {
@@ -9,7 +8,6 @@ describe('Interactions - Sortable', () => {
   });
 
   it('Caso de Teste 1 - Deve ordenar os elementos da lista vertical em ordem crescente', () => {
-    // já abre na aba List, mas garantimos que clicou
     interactionsPage.clickListTab();
 
     // garante que os itens visíveis estão carregados

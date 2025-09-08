@@ -11,7 +11,7 @@ describe("Alerts, Frame & Windows ", () => {
     alertsFrameWinPage.elements.newWindowBtn().click();
     cy.visit("/sample"); // acessa o conteúdo da nova janela
     alertsFrameWinPage.elements.message().should("be.visible");
-    // "Fechar" simulado: volta para a página original
+    // "Fechar" - volta para a página original
     cy.visit("/browser-windows");
   });
 });

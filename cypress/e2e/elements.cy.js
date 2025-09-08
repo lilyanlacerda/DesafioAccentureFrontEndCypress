@@ -6,6 +6,9 @@ describe("Elements / Web Tables - CRUD", () => {
 
   beforeEach(() => {
     cy.visit("/webtables"); // acessa diretamente a página Web Tables
+    // cy.visit("/");
+    // cy.contains("Elements").click();
+    // cy.contains("Web Tables").click();
   });
 
   it("Caso de Teste 1 - Deve criar, editar e deletar um registro", () => {
