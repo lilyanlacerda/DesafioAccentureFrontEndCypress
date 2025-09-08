@@ -48,7 +48,7 @@ npx cypress run
 * Rodar testes específicos:
 
 ```bash
-npx cypress run --spec "cypress/e2e/sortable.cy.js"
+npx cypress run --spec "cypress/e2e/<nome_do_arquivo>.cy.js"
 ```
 
 ---
